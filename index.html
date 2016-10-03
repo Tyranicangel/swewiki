@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="cookieCutter" ng-controller="MainCtrl">
+<head>
+	<meta charset="UTF-8">
+	<title>Cookiecutter</title>
+	<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+	<script type="text/javascript" src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<img src="images/header.png" alt="Header" class="img-responsive">
+	</div>
+	<div class="container-fluid" ui-view="main">
+		
+	</div>
+	<div class="container-fluid">
+		<img src="images/footer.png" alt="Footer" class="img-responsive">
+	</div>
+	<div class="loader_wrap" ng-show="showloader"><div class="loading"><i class="fa fa-spinner fa-pulse"></i></div></div>
+</body>
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/state.js"></script>
+<script type="text/javascript" src="scripts/service.js"></script>
+<script type="text/javascript" src="scripts/commoncontroller.js"></script>
+<script type="text/javascript" src="scripts/admincontroller.js"></script>
+</html>

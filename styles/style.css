@@ -1,0 +1,34 @@
+html{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.loader_wrap{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 9999;
+	background: rgba(0,0,0,0.2);
+	top: 0px;
+	left: 0px;
+}
+.loading{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
+.loading i{
+	font-size: 70px;
+}
